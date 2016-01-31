@@ -1,5 +1,7 @@
 # GettingAndCleaningData
 
+There is only 1 executable file for this project. It is run_analysis.R and here is what it does ...
+
 1. Create a data directory for working in. Then down load the zip file and unzip it. The zip file will be named "ph.zip"
 
 2. During the process we will take the following Training and Testing sets and merge them all into 1 file for the observations.  
