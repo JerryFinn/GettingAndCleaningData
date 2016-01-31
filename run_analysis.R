@@ -1,7 +1,3 @@
-#
-# Author: Jerry Finn
-# Date: 31-January-2016
-# For Coursera Getting and Cleaning Data Course
 
 # install.packages("dplyr")
 library(dplyr)
@@ -16,14 +12,6 @@ filename1 = "ph.zip"
 download.file(fileURL ,destfile = filename1, mode = 'wb')
 unzip(filename1)
  
-#
-# As a sanity check see if a couple expected directories exist and if not, end the execution
-#
-
-if (!file.exists("./UCI HAR Dataset/test/Inertial Signals") | !file.exists("./UCI HAR Dataset/train/Inertial Signals")) {
-    stop("Expected directories don't exit.")
-}
-
 #
 # Check if the files we need exist before preceded. If not end execution
 #
